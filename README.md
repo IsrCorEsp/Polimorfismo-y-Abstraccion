@@ -1,1 +1,2 @@
-# Polimorfismo-y-Abstraccion
+#Ejercicio:
+Cree un programa en C++ utilizando los principios de abstracción y polimorfismo estático. Defina una clase base **Persona** que contenga los atributos comunes nombre y edad, junto con sus métodos de acceso y modificación. A partir de **Persona**, cree dos clases hijas: **Alumno** y **Profesor**. La clase **Alumno** debe incorporar los atributos promedio y carrera, mientras que **Profesor** debe incluir la asignatura que imparte. Ambas clases deben implementar un método **presentacion()** que muestre un saludo identificando el tipo de persona. Implemente además una función **mostrar()** sobrecargada que reciba un **Alumno** o un **Profesor** e imprima sus datos completos según corresponda.
